@@ -26,9 +26,9 @@ categories_path : /categories.html
 tags_path : /tags.html
 
 # Masthead title
-masthead_link: http://client.apievangelist.com
+masthead_link: http://ide.apievangelist.com
 masthead_font_size: 75
-masthead_title: '{"API Clients"}'
+masthead_title: '{"API IDEs"}'
 
 # Feature
 feature_title: API Design Providers Guide
