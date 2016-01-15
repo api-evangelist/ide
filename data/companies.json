@@ -30,21 +30,6 @@
 		"tags": null
 	},
 	{
-		"id": "5yT5wG4cK2dCQaKvCbLo9LnM0mp1qwRH1rd3RoMDZXnlJ9Hf7bkUIVg6dNZDuh1232o5y116Cq5qiVn116FtUNJDejzQ117117",
-		"name": "Codenvy",
-		"summary": "Industrial cloud IDE, build, and test services for developers, enterprises, and ISVs. Codenvy is the leader in cloud software development. Codenvy has the largest selection of integrated partners including GitHub, BitBucket, RedHat OpenShift, Google App Engine, Amazon Web Services BeanStalk, VMware CloudFoundry, Heroku, AppFog, CloudBees, Tier3, and ZeroTurnaround.",
-		"details": "Industrial cloud IDE, build, and test services for developers, enterprises, and ISVs. Codenvy is the leader in cloud software development. Codenvy has the largest selection of integrated partners including GitHub, BitBucket, RedHat OpenShift, Google App Engine, Amazon Web Services BeanStalk, VMware CloudFoundry, Heroku, AppFog, CloudBees, Tier3, and ZeroTurnaround.",
-		"website": "https://codenvy.com/",
-		"twitter": "https://twitter.com/CodenvyHQ",
-		"github": "https://github.com/codenvy",
-		"blog": "http://blog.codenvy.com/",
-		"blogrss": "http://blog.codenvy.com/feed/",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-envy-logo.jpg",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-envy-logo.jpg",
-		"tags": null
-	},
-	{
 		"id": "acc0cYBAEqUTarAt1sv2SEgXEWc1161MlXWK123KwkyYOCdY1EiyUOozGz6GUCr1160Uh93RWGhSyYpmjNNc82FsBCBQ117117",
 		"name": "Sublime HQ",
 		"summary": "Sublime Text is a sophisticated text editor for code, markup and prose. Youll love the slick user interface, extraordinary features and amazing performance.",
