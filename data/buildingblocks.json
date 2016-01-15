@@ -8,7 +8,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "1"
 	},
 	{
 		"building_block_id": "EnV2XVgt6IAj116z1gZZSF8k116ychw24123AtN4kLB5p123ZG5yYFtBXGU116bCw7YtMd3xu09NXcmF123uk0QHNlZ8XzqNHg117117",
@@ -19,7 +19,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "2"
 	},
 	{
 		"building_block_id": "7116UNw4P7myAU3LLiP3Bz8UdlslPOizLYgoQ1OVbJko7HbBcpUMRJFBAA3C123a7SiQFT9a502CZuvUe17mtheltw117117",
@@ -30,7 +30,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "3"
 	},
 	{
 		"building_block_id": "iHAi3m9as6PCoQJrHb2DibcXTHVFqk3C1231XYQJx5DbK116E116C2OIuPM10uji3OQPMWsUAnJqcqL7u3hve8BF2YRQ117117",
@@ -41,7 +41,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "4"
 	},
 	{
 		"building_block_id": "I6a8Bj7DmjllfzAMgYsWIVAX3AhE5pNREUNGmRiwHD123apYXsLkI5e85gp59DYz60123RrRwi0uQ4G123bzSfeftvGw117117",
@@ -52,7 +52,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "5"
 	},
 	{
 		"building_block_id": "RmeynPty75OBXhv9cuEyvgtjXTzfggrS6vDwOiAJ0bbfphL123bTvyPYvCGOzraZ5YsIcsVo6Ogtepx123zKJsLMZQ117117",
@@ -63,7 +63,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "6"
 	},
 	{
 		"building_block_id": "FlIX49u0lQDgaf4qruW575OHg116s9RLXqV9Pgof7lSqEYvvt0LwpvX7pmBCh0CVgOkntCCvom3DECD45u116aDFFQ117117",
@@ -74,7 +74,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "7"
 	},
 	{
 		"building_block_id": "Om5sGieFCTVF123Rfh8shvHBL2eG1116C6CxdUXe36nCr3tIwn6gyOGBsUddtAuVAUgZIoje0tauH3Uzc3Q7HLCHLg117117",
@@ -85,7 +85,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "8"
 	},
 	{
 		"building_block_id": "L8mQIoUlEV6Y0vwR123TFwV9nQvwnzL3CvAipTV1160MYvvpFXgf72UmpepJvfNAPf0d10oR96Qnxvxw116fB5YdIE9A117117",
@@ -96,7 +96,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "9"
 	},
 	{
 		"building_block_id": "TySa17X6M6J8LKrC1CN3jvIkxKLFfw1166r3LhCVhm1spsANXs43fy2K7vYNvPiQdJHel123zk6caTifCHHju6DHZA117117",
@@ -107,7 +107,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "10"
 	},
 	{
 		"building_block_id": "x8kxGLsh1E1vShtQMqJrh9BwpVYcmjc25Gi7aSKZEZcbSRhhzDGJI123EmXKzlIyZYJvJ6116L8ga8MZAKA2VDH77w117117",
@@ -118,7 +118,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "11"
 	},
 	{
 		"building_block_id": "uyR9VKZRxt1Kbg3DeMQsb84inCAT26zurxBpPI1HMb8Jq5HZoyBN1Iu9zWaejaEEpv3JaLfajVhNE75ck123zGpg117117",
@@ -129,7 +129,7 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "12"
 	},
 	{
 		"building_block_id": "iSA123BaojbsggGzF9KEuJhvB6GYOkLwdGhy1230G7fv0wwaEnitV123YdWZRXyD123dNjPHgcfpCSDFPRiaAzcCNKlWAw117117",
@@ -140,6 +140,6 @@
 		"category": "Core Elements",
 		"image": "",
 		"image_width": "100",
-		"sort_order": "0"
+		"sort_order": "13"
 	}
 ]
