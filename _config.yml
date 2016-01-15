@@ -1,4 +1,4 @@
-title:        IDE 
+title:        IDE
 url:          http://ide.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-ide.png
 logo_width:   80
@@ -28,7 +28,7 @@ tags_path : /tags.html
 # Masthead title
 masthead_link: http://ide.apievangelist.com
 masthead_font_size: 75
-masthead_title: '{"API IDEs"}'
+masthead_title: '{"IDE"}'
 
 # Feature
 feature_title: API Design Providers Guide
