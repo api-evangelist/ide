@@ -80,7 +80,7 @@
 		"building_block_id": "Om5sGieFCTVF123Rfh8shvHBL2eG1116C6CxdUXe36nCr3tIwn6gyOGBsUddtAuVAUgZIoje0tauH3Uzc3Q7HLCHLg117117",
 		"building_block_category_id": "zgzgq4iKS05VHxbsYwat5TjE1123oaY7XbCNPAcdBDq9jp6wXIx116zlnzJK01167Qus2uuZW2jQ1CLruE7LGU8eVuHQ117117",
 		"name": "Github",
-		"about": "",
+		"about": "Using Github as a source for code, templates, definitions, and other essential building blocks of the API development process, in a modern IDE.",
 		"category_id": "256",
 		"category": "Core Elements",
 		"image": "",
