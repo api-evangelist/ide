@@ -1,6 +1,6 @@
 title:        IDE API
 url:          http://IDE.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-IDE.png
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-ide.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -31,8 +31,8 @@ feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/a
 feature_image_width: 45
 
 # Project
-project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-IDE.png
-project_summary: This is my research around the evolution of API IDEs. Not the integrated type of SDK or code IDE, but the growing number of of web and desktop tooling for developing with APIs. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research report.
+project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-ide.png
+project_summary: This is my research around the evolution of IDEs that have more support for APIs. Early examples were from SalesForce and Google, using Eclipse plugins, and now we are seeing more movement from Visual Studio, and new player Atom from Github. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research report.
 
 # Navigation
 navigation:
