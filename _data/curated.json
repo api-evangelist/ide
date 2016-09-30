@@ -1,9 +1,33 @@
 [
 	{
+		"curated_id": "aTvSlBtVojGI334wqXWDZxXXAbso123VhG6OrjYdwgpthaHhpQZkTIKIMzZ5hBDi95YECCE6hx9zBdYhEopfSf4Q117117",
+		"item_date": "2016-09-12 10:18:13",
+		"title": "Deploying to App Engine  Google Plugin for Eclipse",
+		"url": "https://developers.google.com/eclipse/docs/appengine_deploy",
+		"domain": "developers.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cdO3Oi3UuZH5PNGhGColyFRtzN0116b6P0nYQp1BAF116nH123Sz8KcFGmPqmfw5mnuH7RbqR8FiTPBxykJZ9uPNzaGA117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Getting started with Cloud Tools for Visual Studio",
+		"url": "https://cloudplatform.googleblog.com/2016/09/Getting-started-with-Cloud-Tools-for-Visual-Studio.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "4t3f6S35bluirWyB6winJCgPatEnU1wL7xBj7wX5xSbMnNN129hcUiQ4l9U16B94jKSyWUOvlUySAjtPqbpD0Q117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "OpenShift Ecosystem  Microsoft Visual Studio  OpenShift and NET with Click2Cloud",
+		"url": "https://blog.openshift.com/openshift-ecosystem-microsoft-visual-studio-openshift-and-net-with-click2cloud/",
+		"domain": "blog.openshift.com",
+		"image": ""
+	},
+	{
 		"curated_id": "uxofgCUiCBH1a2cKOPHzZc12D3Of123123CxClkTuf7WH123XtZWilXVZssKC47BTJ8y2MQcN8Cri3oQ7z6noV4iFB123g117117",
 		"item_date": "2016-09-02 00:00:00",
 		"title": "XPath for Selenium IDE",
-		"url": "https://dzone.com/articles/xpath-implementation-for-selenium-ide?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/xpath-implementation-for-selenium-ide",
 		"domain": "dzone.com",
 		"image": ""
 	},
