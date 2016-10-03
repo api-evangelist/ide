@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "y0MKFJpM1bBriITgYFF116RAI6NUU0CS2JTw3mGULF1163R3YaLZITk10BQH8S9QTAyM8mcptHXQ7T1WTwOFECbC3g117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "New Lightning Support in the Forcecom IDE  and Everywhere",
+		"url": "https://developer.salesforce.com/blogs/developer-relations/2016/09/new-lightning-support-force-com-ide-everywhere.html",
+		"domain": "developer.salesforce.com",
+		"image": ""
+	},
+	{
+		"curated_id": "G2LMz1230wywICyFoVOG123izC4123ZNWSUhsKOaozH13OB1230ZH123s577loH123NI5116ucfp0jBmSUDMHRoK5FUdjPBYqiLA117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Visual Studio Bitbucket Extension",
+		"url": "http://devpost.com/software/bitbucket-extension-for-visual-studio",
+		"domain": "devpost.com",
+		"image": ""
+	},
+	{
 		"curated_id": "aTvSlBtVojGI334wqXWDZxXXAbso123VhG6OrjYdwgpthaHhpQZkTIKIMzZ5hBDi95YECCE6hx9zBdYhEopfSf4Q117117",
 		"item_date": "2016-09-12 10:18:13",
 		"title": "Deploying to App Engine  Google Plugin for Eclipse",
