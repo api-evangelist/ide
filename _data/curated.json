@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "jyEoOyX32LqsbZJXao3YWDHSzRg116hbRzIm3JkHtt4GZo5ZsTumeR2Dxj7X4El1p116E2UW5BdS2bYWlUQFP2HlTg117117",
+		"item_date": "2016-10-10 17:21:39",
+		"title": "Using Docker to Build a CrossPlatform CLI",
+		"url": "https://medium.com/eclipse-che-blog/using-docker-to-build-a-cross-platform-cli-8a5b80a5655d#.7l0prfvva",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
 		"curated_id": "70eJ6UU47MyK3Z123PSOnyNemtiuQQkYUQTdxhb6WyZQCoExz9QktRvLVhPGefjmIcOpO1162H34O3pOjQZFXinzsQ117117",
 		"item_date": "2016-10-04 00:00:00",
 		"title": "Releasing a Visual Studio Extension",
