@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "TfE4L7dWyOQaY1R1162123E4mWUXwEslWaDExt6H1k42oAA726NF116GDKt123pUtZzOrjHdz2fBQdez9fT4B8bOzei116FA117117",
+		"item_date": "2016-11-10 00:00:00",
+		"title": "Extensibility in Visual Studio 15 Increasing Reliability and Performance",
+		"url": "https://blogs.msdn.microsoft.com/visualstudio/2016/11/10/extensibility-in-visual-studio-15-increasing-reliability-and-performance/",
+		"domain": "blogs.msdn.microsoft.com",
+		"image": ""
+	},
+	{
 		"curated_id": "jyEoOyX32LqsbZJXao3YWDHSzRg116hbRzIm3JkHtt4GZo5ZsTumeR2Dxj7X4El1p116E2UW5BdS2bYWlUQFP2HlTg117117",
 		"item_date": "2016-10-10 17:21:39",
 		"title": "Using Docker to Build a CrossPlatform CLI",
