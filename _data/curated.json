@@ -42,7 +42,7 @@
 	{
 		"curated_id": "aTvSlBtVojGI334wqXWDZxXXAbso123VhG6OrjYdwgpthaHhpQZkTIKIMzZ5hBDi95YECCE6hx9zBdYhEopfSf4Q117117",
 		"item_date": "2016-09-12 10:18:13",
-		"title": "Deploying to App Engine  Google Plugin for Eclipse",
+		"title": "",
 		"url": "https://developers.google.com/eclipse/docs/appengine_deploy",
 		"domain": "developers.google.com",
 		"image": ""
@@ -610,7 +610,7 @@
 	{
 		"curated_id": "MSrION7iToyqoWeHKtpiKuTpLyQ0s6XyEQg5hh9txByU7eCcVyQz2sCU116bOkkfN6amznMmLQeRQjq24xSil1VA117117",
 		"item_date": "2015-06-27 20:04:18",
-		"title": "APIsjson Driven API Dictionaries For Use In Atom IDE Autocomplete Packages ",
+		"title": "",
 		"url": "http://apievangelist.com/2015/06/27/apisjson-driven-api-dictionaries-for-use-in-atom-ide-autocomplete-packages/",
 		"domain": "apievangelist.com",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/apievangelist-com20150627apisjson-driven-api-dictionaries-for-use-in-atom-ide-autocomplete-packages.png"
@@ -926,53 +926,5 @@
 		"url": "http://www.aspose.com/blogs/aspose-products/aspose-total-product-family/archive/2015/01/07/aspose-maven-dependencies-integrates-with-eclipse-ide.html",
 		"domain": "www.aspose.com",
 		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/www-aspose-comblogsaspose-productsaspose-total-product-familyarchive20150107aspose-maven-dependencies-integrates-with-eclipse-ide-html.png"
-	},
-	{
-		"curated_id": "nQtGoPF116ryDoQ123nn7GgIupUO6jHQwwEYPDS2eY4rB8fN00R94MOhyVv24xMd7KY6GWaj116UYgMEsW123C5TWsYnug117117",
-		"item_date": "2014-10-27 00:00:00",
-		"title": "Introducing Eclipse Che and Eclipse Cloud Development",
-		"url": "http://blog.codenvy.com/introducing-eclipse-che-eclipse-cloud-development/",
-		"domain": "blog.codenvy.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blog-codenvy-comintroducing-eclipse-che-eclipse-cloud-development.png"
-	},
-	{
-		"curated_id": "123wdICjxeOTX3CxAA51235oIGSDt56BGxdsCTRYNLFtVyE0NMcDHMhElx0lxWSl5ygVWu2123bnGnUNbAkrlxbGAwdA117117",
-		"item_date": "2014-08-18 00:00:00",
-		"title": "Bing Developer Assistant for Visual Studio focuses on improving productivity within the experience",
-		"url": "https://blogs.msdn.microsoft.com/bingdevcenter/2014/08/18/bing-developer-assistant-for-visual-studio-focuses-on-improving-productivity-within-the-experience/",
-		"domain": "blogs.msdn.microsoft.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/blogs-msdn-combbingdevcenterarchive20140818bing-developer-assistant-for-visual-studio-focuses-on-improving-productivity-within-the-experience-aspx.png"
-	},
-	{
-		"curated_id": "LFxi1vsNWL6H5bgOleCVzPMMo09v8H6i8123Xds4yAiQNrd1BXyEBv116cygmGsRRW4dllp8MAg9VV7eW7sjMugzuA117117",
-		"item_date": "2014-08-04 00:00:00",
-		"title": "Announcing release of Visual Studio 2013 Update 3 and Azure SDK 24",
-		"url": "https://azure.microsoft.com/en-us/blog/2014/08/04/announcing-release-of-visual-studio-2013-update-3-and-azure-sdk-2-4/",
-		"domain": "azure.microsoft.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/azure-microsoft-comblog20140804announcing-release-of-visual-studio-2013-update-3-and-azure-sdk-2-4.png"
-	},
-	{
-		"curated_id": "FqfdUdyrGM5a0xtCrrDR1gvy4cspzeYXJMy5fvCZXNqIVEaW40wij4GzkMCdCJlmqk3r12116M6lLVG10Dk23pYw117117",
-		"item_date": "2013-04-16 00:00:00",
-		"title": "ActionIO Becomes NitrousIO Raises 1M For Its Development Tools",
-		"url": "https://techcrunch.com/2013/04/16/nitrous-io-seed-funding/",
-		"domain": "techcrunch.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/7556_techcrunch_com.png"
-	},
-	{
-		"curated_id": "UkSL3TcYa1gtuumG7v2KOf1T3f6Xrmm6HnEhqMfgwNdOYC6Yy4eBYz9vidBwhniNn123Q3709fXA0PzmUxzqFrSw117117",
-		"item_date": "2013-02-01 00:00:00",
-		"title": "New Salesforce Eclipse Plugin Available February 15th",
-		"url": "https://developer.salesforce.com/blogs/developer-relations/2013/02/new-eclipse-plugin-available-february-15th.html",
-		"domain": "developer.salesforce.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/9352_api500_com.png"
-	},
-	{
-		"curated_id": "gM116Eu116ccHd3nXuGA27wOGczq7XEDNSq2blyrU116116RNs123a1FMWYHFLwIAYxKapsgddLVFQaqTal7eD9A6iWGW4UA117117",
-		"item_date": "2012-05-05 11:46:25",
-		"title": "Google Plugin for Eclipse now provides richer tooling for Cloud SQL and Google APIs",
-		"url": "https://developers.googleblog.com/2012/05/google-plugin-for-eclipse-now-provides.html",
-		"domain": "developers.googleblog.com",
-		"image": "http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/9352_api500_com.png"
 	}
 ]
