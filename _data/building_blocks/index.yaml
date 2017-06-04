@@ -1,264 +1,123 @@
-- building_block_id: load-testing
-  type: Testing
-  category: Core Testing
-  name: Load Testing
-  description: Offer loading testing services for HTTP endpoints.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-load-testing.jpeg
-  tags: Testing
-- building_block_id: response-header-inspector
-  type: Testing
-  category: Core Testing
-  name: Response Header Inspector
-  description: Ability to inspect a response header.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-inspection.png
-  tags: Testing
-- building_block_id: response-body-inspector
-  type: Testing
-  category: Core Testing
-  name: Response Body Inspector
-  description: Ability to inspect a response body.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-inspection.png
-  tags: Testing
-- building_block_id: request-retry
-  type: Testing
-  category: Core Testing
-  name: Request Retry
-  description: Ability to retry a specific request.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-retry.png
-  tags: Testing
-- building_block_id: request-sharing
-  type: Testing
-  category: Core Testing
-  name: Request Sharing
-  description: Allow for the sharing of requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-sharing.jpeg
-  tags: Testing
-- building_block_id: request-playback
-  type: Testing
-  category: Core Testing
-  name: Request Playback
-  description: Enable the playback of a single request.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-play.jpg
-  tags: Testing
-- building_block_id: request-scheduling
-  type: Testing
-  category: Core Testing
-  name: Request Scheduling
-  description: Allow for the scheduling of requests at a specific time.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scheduling.jpeg
-  tags: Testing
-- building_block_id: request-compare
-  type: Testing
-  category: Core Testing
-  name: Request Compare
-  description: Allow for the comparing of two requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compare.png
-  tags: Testing
-- building_block_id: request-scripting
-  type: Testing
-  category: Core Testing
-  name: Request Scripting
-  description: Provide the ability to script against requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-html-code.png
-  tags: Testing
-- building_block_id: request-automation
-  type: Testing
-  category: Core Testing
-  name: Request Automation
-  description: Allow for the automation of multiple requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-clock-gear.png
-  tags: Testing
-- building_block_id: request-commenting
-  type: Testing
-  category: Core Testing
-  name: Request Commenting
-  description: Enabling users to comment on a specific request.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-chat.png
-  tags: Testing
-- building_block_id: simulator
-  type: Testing
-  category: Core Testing
-  name: Simulator
-  description: Provide tools for simulating requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-siimulation.png
-  tags: Testing
-- building_block_id: templates
-  type: Testing
-  category: Core Testing
-  name: Templates
-  description: Offer templates of common or specialized requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-data-template.png
-  tags: Testing
-- building_block_id: data-scenarios
-  type: Testing
-  category: Core Testing
-  name: Data Scenarios
-  description: Provide specific data scenarios that can be executed.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scenario.png
-  tags: Testing
-- building_block_id: region-based-testing
-  type: Testing
-  category: Targeted Testing
-  name: Region Based Testing
-  description: Allow for testing from a specific region.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-region.png
-  tags: Testing
-- building_block_id: provider-based-testing
-  type: Testing
-  category: Targeted Testing
-  name: Provider Based Testing
-  description: Allow for testing from a specific provider
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-api-provider.png
-  tags: Testing
-- building_block_id: basicauth
-  type: Testing
-  category: Authentication
-  name: Basic-Auth
-  description: Use Basic Auth for authentication.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-basic-auth.jpg
-  tags: Testing
-- building_block_id: api-keys
-  type: Testing
-  category: Authentication
-  name: API Keys
-  description: Use API keys for authentication.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-key.png
-  tags: Testing
-- building_block_id: oauth
-  type: Testing
-  category: Authentication
-  name: OAuth
-  description: Use OAuth for authentication.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oauth-logo.png
-  tags: Testing
-- building_block_id: collections
-  type: Testing
-  category: Utility
-  name: Collections
-  description: Allow tests to be organized into collections.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-collection.png
-  tags: Testing
-- building_block_id: command-line-interface
-  type: Testing
-  category: Utility
-  name: Command Line Interface
-  description: Provide a command line interface for working with tests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
-  tags: Testing
-- building_block_id: teams
-  type: Testing
-  category: Utility
-  name: Teams
-  description: Allow for team interaction when testing.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-team-male-female.png
-  tags: Testing
-- building_block_id: api
-  type: Testing
-  category: Utility
-  name: API
-  description: Provide an API for all parts of testing platform.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/api-commons-icon.png
-  tags: Testing
-- building_block_id: postman
-  type: Testing
-  category: Import
-  name: Postman
-  description: Allow for the importing of APIs with Postman.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-postman.png
-  tags: Testing
-- building_block_id: openapi-spec
-  type: Testing
-  category: Import
-  name: OpenAPI Spec
-  description: Allow for the importing of APIs with OpenAPI Spec.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-swagger-round.png
-  tags: Testing
-- building_block_id: raml
-  type: Testing
-  category: Import
-  name: RAML
-  description: Allow for the importing of APIs with RAML.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-raml.png
-  tags: Testing
-- building_block_id: har
-  type: Testing
-  category: Import
-  name: HAR
-  description: Allow for the importing of APIs with HAR
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-har-file.png
-  tags: Testing
-- building_block_id: jmeter
-  type: Testing
-  category: 3rd Party
-  name: JMeter
-  description: Provide 3rd party integration with JMeter.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/jmeter-logo.jpg
-  tags: Testing
-- building_block_id: selenium
-  type: Testing
-  category: 3rd Party
-  name: Selenium
-  description: Provide 3rd party integration with Selenium.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/selenium-icon.png
-  tags: Testing
-- building_block_id: jenkins
-  type: Testing
-  category: 3rd Party
-  name: Jenkins
-  description: Provide 3rd party integration with Jenkins.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/jenkins-logo.png
-  tags: Testing
-- building_block_id: teamcity
-  type: Testing
-  category: 3rd Party
-  name: TeamCity
-  description: Provide 3rd party integration with TeamCity.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/teamcity_logo.png
-  tags: Testing
-- building_block_id: bamboo
-  type: Testing
-  category: 3rd Party
-  name: Bamboo
-  description: Provide 3rd party integration with Bamboo.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bamboo-icon.png
-  tags: Testing
-- building_block_id: travis
-  type: Testing
-  category: 3rd Party
-  name: Travis
-  description: Provide 3rd party integration with Travis.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/travis-mascot-200px.png
-  tags: Testing
+- building_block_id: workspace
+  type: IDE
+  category: Workbench
+  name: Workspace
+  description: >-
+    Workspace definition tooling and services, allowing APIs to be an integrated
+    part of the IDE workspaces, either by default or custom addition.
+  image: ''
+  tags: IDE
+- building_block_id: project
+  type: IDE
+  category: Workbench
+  name: Project
+  description: >-
+    Allowing developers to break up API development into specific projects,
+    providing well defined, project focused organization for API integration.
+  image: ''
+  tags: IDE
+- building_block_id: environment
+  type: IDE
+  category: Workbench
+  name: Environment
+  description: >-
+    Is there the option for establishing separate environments within an IDE.
+    Are developers able to segment and group their API integrations into
+    multiple environments.
+  image: ''
+  tags: IDE
+- building_block_id: autocomplete
+  type: IDE
+  category: Workbench
+  name: Autocomplete
+  description: >-
+    One of the hallmark features of an IDE, is autocomplete for specific
+    languages and frameworks. In this scenario autocomplete is focused on
+    dictionaries created by API definitions, meant for specific integrations.
+  image: ''
+  tags: IDE
+- building_block_id: worker
+  type: IDE
+  category: Backend
+  name: Worker
+  description: >-
+    Are there options for creating specific works, that allow specific API
+    integrations to be established, and run in isolation as specific workers or
+    jobs.
+  image: ''
+  tags: IDE
+- building_block_id: container
+  type: IDE
+  category: Backend
+  name: Container
+  description: >-
+    Are there options to be able to containerize individual API integrations,
+    isolating them into specific virtualized instances.
+  image: ''
+  tags: IDE
+- building_block_id: github
+  type: IDE
+  category: Extending
+  name: Github
+  description: >-
+    Using Github as a source for code, templates, definitions, and other
+    essential building blocks of the API development process, in a modern IDE.
+  image: ''
+  tags: IDE
+- building_block_id: plugins
+  type: IDE
+  category: Extending
+  name: Plugins
+  description: >-
+    Does the IDE environment allow for plugins, and extending the environment?
+    Plugins allow for the introduction of 3rd party tools and services into the
+    IDE workspace.
+  image: ''
+  tags: IDE
+- building_block_id: customize
+  type: IDE
+  category: Extending
+  name: Customize
+  description: >-
+    Are there options for customizing the IDE, from look and feel, to the
+    functionality.
+  image: ''
+  tags: IDE
+- building_block_id: editors
+  type: IDE
+  category: Configuration
+  name: Editor(s)
+  description: >-
+    Are there options for multiple editors, depending on media or file type, or
+    possible set per project and environment levels, within the IDE.
+  image: ''
+  tags: IDE
+- building_block_id: themes
+  type: IDE
+  category: Configuration
+  name: Themes
+  description: >-
+    Are there theme options, allowing the environment, workspace, and projects
+    to be custom defined by stored themes.
+  image: ''
+  tags: IDE
+- building_block_id: resources
+  type: IDE
+  category: Awareness
+  name: Resources
+  description: >-
+    What API focused resources are available within an IDE environment. How do
+    developers find documentation, and other resources that support them in
+    their integrations.
+  image: ''
+  tags: IDE
+- building_block_id: analytics
+  type: IDE
+  category: Awareness
+  name: Analytics
+  description: >-
+    What analytics are available to support API integrations, during
+    development? Is the ability to track and measure API related integrations
+    during design and development time.
+  image: ''
+  tags: IDE
