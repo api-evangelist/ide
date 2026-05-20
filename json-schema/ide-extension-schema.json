@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/json-schema/ide-extension-schema.json",
+  "title": "Extension",
+  "description": "Represents an IDE extension or plugin published to a marketplace such as the VS Code Marketplace or JetBrains Marketplace.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Marketplace identifier for the extension (publisher.extension or numeric id).",
+      "example": "ms-python.python"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the extension.",
+      "example": "Python"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher of the extension.",
+      "example": "Microsoft"
+    },
+    "marketplace": {
+      "type": "string",
+      "description": "Marketplace that hosts the extension.",
+      "enum": [
+        "vscode-marketplace",
+        "open-vsx",
+        "jetbrains-marketplace",
+        "visual-studio-marketplace",
+        "eclipse-marketplace",
+        "unity-asset-store",
+        "other"
+      ],
+      "example": "vscode-marketplace"
+    },
+    "version": {
+      "type": "string",
+      "description": "Current version of the extension.",
+      "example": "2026.3.0"
+    },
+    "target_ides": {
+      "type": "array",
+      "description": "IDEs or editors the extension targets.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "vscode",
+          "cursor",
+          "windsurf",
+          "zed",
+          "intellij",
+          "pycharm",
+          "webstorm",
+          "goland",
+          "phpstorm",
+          "rider",
+          "rubymine",
+          "clion",
+          "visual-studio",
+          "eclipse",
+          "jupyterlab",
+          "neovim",
+          "unity"
+        ]
+      },
+      "example": ["vscode", "cursor"]
+    },
+    "categories": {
+      "type": "array",
+      "description": "Marketplace categories the extension belongs to.",
+      "items": {
+        "type": "string",
+        "example": "Programming Languages"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "Free-form tags applied to the extension.",
+      "items": { "type": "string" },
+      "example": ["lsp", "ai", "completion"]
+    },
+    "downloads": {
+      "type": "integer",
+      "description": "Cumulative install count reported by the marketplace.",
+      "example": 145000000
+    },
+    "rating": {
+      "type": "number",
+      "description": "Average user rating, 0 to 5.",
+      "minimum": 0,
+      "maximum": 5,
+      "example": 4.5
+    },
+    "repository_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Source repository for the extension.",
+      "example": "https://github.com/microsoft/vscode-python"
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier or marketplace license name.",
+      "example": "MIT"
+    },
+    "pricing": {
+      "type": "string",
+      "description": "Pricing model for the extension.",
+      "enum": ["free", "freemium", "paid", "trial"],
+      "example": "free"
+    },
+    "extension_apis": {
+      "type": "array",
+      "description": "IDE APIs the extension contributes to or consumes.",
+      "items": {
+        "type": "string",
+        "example": "languages.registerCompletionItemProvider"
+      }
+    }
+  },
+  "required": ["id", "name", "publisher", "marketplace"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ms-python.python",
+  "name": "Python",
+  "publisher": "Microsoft",
+  "marketplace": "vscode-marketplace",
+  "version": "2026.3.0",
+  "target_ides": [
+    "vscode",
+    "cursor",
+    "windsurf"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Debuggers",
+    "Linters"
+  ],
+  "tags": [
+    "python",
+    "lsp",
+    "debugger",
+    "jupyter"
+  ],
+  "downloads": 145000000,
+  "rating": 4.5,
+  "repository_url": "https://github.com/microsoft/vscode-python",
+  "license": "MIT",
+  "pricing": "free",
+  "extension_apis": [
+    "languages.registerCompletionItemProvider",
+    "debug.registerDebugAdapterDescriptorFactory",
+    "workspace.onDidChangeConfiguration"
+  ]
+}

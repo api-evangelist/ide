@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "ide": "https://api-evangelist.github.io/ide/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "Workspace": "ide:Workspace",
+    "Extension": "ide:Extension",
+    "EditorSession": "ide:EditorSession",
+    "LSPMessage": "ide:LSPMessage",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "publisher": "schema:publisher",
+    "version": "schema:softwareVersion",
+
+    "id": {
+      "@id": "schema:identifier",
+      "@type": "xsd:string"
+    },
+    "kind": {
+      "@id": "ide:kind",
+      "@type": "xsd:string"
+    },
+    "editor": {
+      "@id": "ide:editor",
+      "@type": "xsd:string"
+    },
+    "marketplace": {
+      "@id": "ide:marketplace",
+      "@type": "xsd:string"
+    },
+    "target_ides": {
+      "@id": "ide:targetIDEs",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "categories": {
+      "@id": "schema:category",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "downloads": {
+      "@id": "ide:downloads",
+      "@type": "xsd:integer"
+    },
+    "rating": {
+      "@id": "schema:ratingValue",
+      "@type": "xsd:decimal"
+    },
+    "repository_url": {
+      "@id": "schema:codeRepository",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "xsd:string"
+    },
+    "pricing": {
+      "@id": "ide:pricing",
+      "@type": "xsd:string"
+    },
+    "extension_apis": {
+      "@id": "ide:extensionAPIs",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "root_folders": {
+      "@id": "ide:rootFolders",
+      "@container": "@set"
+    },
+    "runtime": {
+      "@id": "ide:runtime"
+    },
+    "language": {
+      "@id": "schema:programmingLanguage",
+      "@type": "xsd:string"
+    },
+    "container_image": {
+      "@id": "ide:containerImage",
+      "@type": "xsd:string"
+    },
+    "extensions_installed": {
+      "@id": "ide:extensionsInstalled",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "ide:status",
+      "@type": "xsd:string"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "last_active_at": {
+      "@id": "ide:lastActiveAt",
+      "@type": "xsd:dateTime"
+    }
+  }
+}

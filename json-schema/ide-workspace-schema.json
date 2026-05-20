@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/json-schema/ide-workspace-schema.json",
+  "title": "Workspace",
+  "description": "Represents an IDE workspace or cloud development environment, including its root folders, runtime, and editor session state.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier for the workspace.",
+      "example": "ws_01H8Q7K3VZ2X4F"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the workspace.",
+      "example": "monorepo-main"
+    },
+    "kind": {
+      "type": "string",
+      "description": "Whether the workspace is local, hosted in a cloud IDE, or running remotely against a local editor.",
+      "enum": ["local", "cloud", "remote", "container", "wsl"],
+      "example": "cloud"
+    },
+    "editor": {
+      "type": "string",
+      "description": "Editor or IDE that owns the workspace.",
+      "enum": [
+        "vscode",
+        "cursor",
+        "windsurf",
+        "zed",
+        "jetbrains",
+        "visual-studio",
+        "eclipse",
+        "neovim",
+        "sublime",
+        "replit",
+        "jupyterlab",
+        "google-colab",
+        "unity",
+        "other"
+      ],
+      "example": "vscode"
+    },
+    "root_folders": {
+      "type": "array",
+      "description": "Root folders that make up the workspace (supports multi-root workspaces).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Filesystem or virtual path of the root folder.",
+            "example": "/workspaces/monorepo/services/api"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name for the root folder.",
+            "example": "api"
+          },
+          "scheme": {
+            "type": "string",
+            "description": "URI scheme for the folder (file, vscode-remote, jupyter, etc.).",
+            "example": "file"
+          }
+        },
+        "required": ["path"]
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "description": "Runtime environment for the workspace.",
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "Primary programming language for the workspace.",
+          "example": "typescript"
+        },
+        "container_image": {
+          "type": "string",
+          "description": "Container image used for cloud or devcontainer workspaces.",
+          "example": "ghcr.io/example/devcontainer:latest"
+        },
+        "resources": {
+          "type": "object",
+          "properties": {
+            "cpu": { "type": "string", "example": "4" },
+            "memory_mb": { "type": "integer", "example": 8192 }
+          }
+        }
+      }
+    },
+    "extensions_installed": {
+      "type": "array",
+      "description": "Extensions or plugins enabled for the workspace.",
+      "items": {
+        "type": "string",
+        "example": "ms-python.python"
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle status of the workspace.",
+      "enum": ["provisioning", "running", "stopped", "archived", "failed"],
+      "example": "running"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the workspace was created.",
+      "example": "2026-05-19T12:34:56Z"
+    },
+    "last_active_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of the last editor activity in this workspace.",
+      "example": "2026-05-19T14:22:01Z"
+    }
+  },
+  "required": ["id", "name", "editor"]
+}

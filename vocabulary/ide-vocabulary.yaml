@@ -1,0 +1,329 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: IDE
+  description: Vocabulary for the IDE topic, covering integrated development environments, code editors, AI-first editors, plugin marketplaces, notebook environments, and cloud workspaces.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Visual Studio Code Extension API
+      namespace: vscode
+      status: active
+    - name: JetBrains Marketplace API
+      namespace: jetbrains-plugin
+      status: active
+    - name: Jupyter Server REST API
+      namespace: jupyter-server
+      status: active
+    - name: Replit API
+      namespace: replit
+      status: active
+    - name: GitHub Copilot API
+      namespace: github-copilot
+      status: active
+    - name: Cursor Editor API
+      namespace: cursor
+      status: active
+    - name: Windsurf Enterprise API
+      namespace: windsurf
+      status: active
+
+  resources:
+    - name: workspaces
+      description: IDE workspaces or cloud development environments
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - start
+        - stop
+    - name: extensions
+      description: IDE extensions or plugins published to a marketplace
+      actions:
+        - list
+        - get
+        - search
+        - install
+        - uninstall
+        - publish
+    - name: kernels
+      description: Notebook kernel processes managed by Jupyter and JupyterLab
+      actions:
+        - list
+        - get
+        - create
+        - delete
+        - interrupt
+        - restart
+    - name: sessions
+      description: Editor or notebook sessions associated with a user and workspace
+      actions:
+        - list
+        - get
+        - create
+        - delete
+    - name: completions
+      description: AI inline completion or chat completion requests issued by editors
+      actions:
+        - create
+        - list
+    - name: marketplace-entries
+      description: Plugin or theme entries published to an IDE marketplace
+      actions:
+        - list
+        - get
+        - search
+        - publish
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Search across resources by query
+      httpMethod: GET
+      pattern: query
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: start
+      description: Start a workspace, kernel, or session
+      httpMethod: POST
+      pattern: lifecycle
+    - name: stop
+      description: Stop a workspace, kernel, or session
+      httpMethod: POST
+      pattern: lifecycle
+    - name: install
+      description: Install an extension or plugin into a workspace
+      httpMethod: POST
+      pattern: write
+    - name: uninstall
+      description: Remove an extension or plugin from a workspace
+      httpMethod: DELETE
+      pattern: destructive
+    - name: publish
+      description: Publish an extension to a marketplace
+      httpMethod: POST
+      pattern: write
+    - name: interrupt
+      description: Send an interrupt signal to a notebook kernel
+      httpMethod: POST
+      pattern: lifecycle
+    - name: restart
+      description: Restart a notebook kernel
+      httpMethod: POST
+      pattern: lifecycle
+
+  schemas:
+    core:
+      - name: Workspace
+        description: An IDE workspace or cloud development environment
+        properties:
+          - id
+          - name
+          - kind
+          - editor
+          - root_folders
+          - runtime
+          - extensions_installed
+          - status
+      - name: Extension
+        description: An IDE extension or plugin published to a marketplace
+        properties:
+          - id
+          - name
+          - publisher
+          - marketplace
+          - version
+          - target_ides
+          - categories
+          - tags
+          - downloads
+          - rating
+          - pricing
+      - name: EditorSession
+        description: A user editor session bound to a workspace
+        properties:
+          - id
+          - workspace_id
+          - user_id
+          - started_at
+          - editor
+      - name: LSPMessage
+        description: A JSON-RPC message exchanged over the Language Server Protocol
+        properties:
+          - jsonrpc
+          - id
+          - method
+          - params
+          - result
+          - error
+
+  enums:
+    editor_kinds:
+      - local
+      - cloud
+      - remote
+      - container
+      - wsl
+    editors:
+      - vscode
+      - cursor
+      - windsurf
+      - zed
+      - jetbrains
+      - visual-studio
+      - eclipse
+      - neovim
+      - sublime
+      - replit
+      - jupyterlab
+      - google-colab
+      - unity
+    marketplaces:
+      - vscode-marketplace
+      - open-vsx
+      - jetbrains-marketplace
+      - visual-studio-marketplace
+      - eclipse-marketplace
+      - unity-asset-store
+    pricing_models:
+      - free
+      - freemium
+      - paid
+      - trial
+    workspace_status:
+      - provisioning
+      - running
+      - stopped
+      - archived
+      - failed
+
+capability:
+  workflows:
+    - name: Build and Publish an Editor Extension
+      description: Author, package, and publish an extension to an IDE marketplace such as the VS Code Marketplace or JetBrains Marketplace
+      apis:
+        - vscode
+        - jetbrains-plugin
+      personas:
+        - Extension Author
+      domains:
+        - Extension Marketplace
+    - name: Provision a Cloud Workspace
+      description: Create, configure, and start an ephemeral cloud development environment
+      apis:
+        - replit
+      personas:
+        - Platform Engineer
+      domains:
+        - Cloud Workspace
+    - name: Run a Notebook Kernel
+      description: Start a Jupyter kernel, open a session, execute cells, and collect outputs through the Jupyter Server REST API and messaging protocol
+      apis:
+        - jupyter-server
+        - jupyterlab
+      personas:
+        - Data Scientist
+      domains:
+        - Notebook Environment
+    - name: Integrate AI Code Completion
+      description: Integrate an LLM-backed completion or chat experience into an editor through extension APIs and provider endpoints
+      apis:
+        - github-copilot
+        - cursor
+        - windsurf
+      personas:
+        - Extension Author
+        - Application Developer
+      domains:
+        - AI Developer Tooling
+
+  personas:
+    - id: extension-author
+      name: Extension Author
+      description: Developers who build and publish editor extensions and IDE plugins
+      workflows:
+        - Build and Publish an Editor Extension
+        - Integrate AI Code Completion
+    - id: application-developer
+      name: Application Developer
+      description: Developers using IDEs and AI assistants to write application code
+      workflows:
+        - Integrate AI Code Completion
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers operating cloud workspaces, devcontainers, and remote development backends
+      workflows:
+        - Provision a Cloud Workspace
+    - id: data-scientist
+      name: Data Scientist
+      description: Practitioners using notebook environments for analysis and machine learning
+      workflows:
+        - Run a Notebook Kernel
+
+  domains:
+    - name: Extension Marketplace
+      description: Platforms for distributing, discovering, and monetizing IDE extensions and plugins
+    - name: Cloud Workspace
+      description: Platforms for provisioning and managing cloud-based development environments
+    - name: Notebook Environment
+      description: Interactive notebook environments built around Jupyter kernels and protocols
+    - name: AI Developer Tooling
+      description: AI-first editors, completion engines, and agentic coding assistants integrated into IDEs
+
+crossReference:
+  - resource: workspaces
+    operations:
+      - create
+      - start
+      - stop
+    workflows:
+      - Provision a Cloud Workspace
+    personas:
+      - Platform Engineer
+  - resource: extensions
+    operations:
+      - publish
+      - search
+      - install
+    workflows:
+      - Build and Publish an Editor Extension
+    personas:
+      - Extension Author
+  - resource: kernels
+    operations:
+      - create
+      - interrupt
+      - restart
+    workflows:
+      - Run a Notebook Kernel
+    personas:
+      - Data Scientist
+  - resource: completions
+    operations:
+      - create
+    workflows:
+      - Integrate AI Code Completion
+    personas:
+      - Extension Author
+      - Application Developer
