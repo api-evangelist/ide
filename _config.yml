@@ -1,0 +1,28 @@
+title: IDE
+description: An index and topic collection covering integrated development environments
+  (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors,
+  IDEs, and developer workspaces that expose programmable surfaces, including local
+  desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse), modern AI-first editors (Cursor,
+  Windsurf), agentic coding assistants (Aider, Cline, Continue, GitHub Copilot, Amazon
+  Q Developer, Tabnine), notebook environments (Jupyter, JupyterLab, JupyterHub, Google
+  Colab), cloud development platforms (Replit), plugin marketplaces (JetBrains Marketplace),
+  and editor extension APIs (Visual Studio Code). IDEs and editor-as-API platforms
+  expose extension APIs, Language Server Protocol (LSP) endpoints, workspace and project
+  APIs, debugging APIs, plugin marketplaces, telemetry, completion and chat APIs,
+  and remote workspace orchestration. This collection is distinct from API client
+  tooling (HTTP request testing) and focuses on the surface where developers write,
+  edit, debug, and run code.
+url: https://ide.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

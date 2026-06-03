@@ -1,0 +1,197 @@
+meta:
+  name: IDE
+  description: An index and topic collection covering integrated development environments
+    (IDEs), code editors, and cloud workspaces with APIs. This topic captures the
+    editors, IDEs, and developer workspaces that expose programmable surfaces, including
+    local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse), modern AI-first editors
+    (Cursor, Windsurf), agentic coding assistants (Aider, Cline, Continue, GitHub
+    Copilot, Amazon Q Developer, Tabnine), notebook environments (Jupyter, JupyterLab,
+    JupyterHub, Google Colab), cloud development platforms (Replit), plugin marketplaces
+    (JetBrains Marketplace), and editor extension APIs (Visual Studio Code). IDEs
+    and editor-as-API platforms expose extension APIs, Language Server Protocol (LSP)
+    endpoints, workspace and project APIs, debugging APIs, plugin marketplaces, telemetry,
+    completion and chat APIs, and remote workspace orchestration. This collection
+    is distinct from API client tooling (HTTP request testing) and focuses on the
+    surface where developers write, edit, debug, and run code.
+  tags:
+  - IDE
+  - Code Editor
+  - Cloud IDE
+  - Developer Tools
+  - Workspaces
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: ide
+services_tools:
+- name: Aider
+  repo: https://github.com/api-evangelist/aider
+  apisio: https://providers.apis.io/providers/aider/
+- name: Amazon Q
+  repo: https://github.com/api-evangelist/amazon-q
+  apisio: https://providers.apis.io/providers/amazon-q/
+- name: Cline
+  repo: https://github.com/api-evangelist/cline
+  apisio: https://providers.apis.io/providers/cline/
+- name: Continue
+  repo: https://github.com/api-evangelist/continue-dev
+  apisio: https://providers.apis.io/providers/continue-dev/
+- name: Cursor
+  repo: https://github.com/api-evangelist/cursor
+  apisio: https://providers.apis.io/providers/cursor/
+- name: Cursor Rules
+  repo: https://github.com/api-evangelist/cursorrules
+  apisio: https://providers.apis.io/providers/cursorrules/
+- name: Eclipse Foundation
+  repo: https://github.com/api-evangelist/eclipse
+  apisio: https://providers.apis.io/providers/eclipse/
+- name: GitHub Copilot
+  repo: https://github.com/api-evangelist/github-copilot
+  apisio: https://providers.apis.io/providers/github-copilot/
+- name: Google Colab
+  repo: https://github.com/api-evangelist/google-colab
+  apisio: https://providers.apis.io/providers/google-colab/
+- name: Google Flutter
+  repo: https://github.com/api-evangelist/google-flutter
+  apisio: https://providers.apis.io/providers/google-flutter/
+- name: Integrated Development Environment
+  repo: https://github.com/api-evangelist/integrated-development-environment
+  apisio: https://providers.apis.io/providers/integrated-development-environment/
+- name: JetBrains
+  repo: https://github.com/api-evangelist/jetbrains
+  apisio: https://providers.apis.io/providers/jetbrains/
+- name: JetBrains Marketplace
+  repo: https://github.com/api-evangelist/jetbrains-plugin
+  apisio: https://providers.apis.io/providers/jetbrains-plugin/
+- name: Jupyter
+  repo: https://github.com/api-evangelist/jupyter
+  apisio: https://providers.apis.io/providers/jupyter/
+- name: JupyterHub
+  repo: https://github.com/api-evangelist/jupyterhub
+  apisio: https://providers.apis.io/providers/jupyterhub/
+- name: Jupyter Hub
+  repo: https://github.com/api-evangelist/jupyter-hub
+  apisio: https://providers.apis.io/providers/jupyter-hub/
+- name: Jupyter Notebook
+  repo: https://github.com/api-evangelist/jupyter-notebook
+  apisio: https://providers.apis.io/providers/jupyter-notebook/
+- name: Jupyter Server
+  repo: https://github.com/api-evangelist/jupyter-server
+  apisio: https://providers.apis.io/providers/jupyter-server/
+- name: JupyterLab
+  repo: https://github.com/api-evangelist/jupyterlab
+  apisio: https://providers.apis.io/providers/jupyterlab/
+- name: Microsoft Visual Studio
+  repo: https://github.com/api-evangelist/microsoft-visual-studio
+  apisio: https://providers.apis.io/providers/microsoft-visual-studio/
+- name: Replit
+  repo: https://github.com/api-evangelist/replit
+  apisio: https://providers.apis.io/providers/replit/
+- name: Tabnine
+  repo: https://github.com/api-evangelist/tabnine
+  apisio: https://providers.apis.io/providers/tabnine/
+- name: Unity
+  repo: https://github.com/api-evangelist/unity
+  apisio: https://providers.apis.io/providers/unity/
+- name: Visual Studio
+  repo: https://github.com/api-evangelist/visual-studio
+  apisio: https://providers.apis.io/providers/visual-studio/
+- name: Visual Studio Code
+  repo: https://github.com/api-evangelist/visual-studio-code
+  apisio: https://providers.apis.io/providers/visual-studio-code/
+- name: Windsurf
+  repo: https://github.com/api-evangelist/windsurf
+  apisio: https://providers.apis.io/providers/windsurf/
+- name: Windsurf Rules
+  repo: https://github.com/api-evangelist/windsurfrules
+  apisio: https://providers.apis.io/providers/windsurfrules/
+features:
+- name: Extension and Plugin APIs
+  description: IDEs expose extension APIs that let third-party developers add commands,
+    views, language support, debuggers, and integrations. Examples include the VS
+    Code Extension API, JetBrains Platform SDK, and Eclipse Platform APIs.
+- name: Language Server Protocol (LSP)
+  description: LSP is a JSON-RPC protocol that standardizes how editors communicate
+    with language tooling (completion, hover, diagnostics, references). It is the
+    backbone of polyglot editor support across VS Code, Neovim, JetBrains, and Eclipse
+    Theia.
+- name: Workspace and Project APIs
+  description: Editors expose workspace, project, and file-system APIs that extensions
+    and remote clients use to read, write, and watch source files, including multi-root
+    workspaces and remote workspace orchestration.
+- name: AI Completion and Chat APIs
+  description: Modern editors and assistants (GitHub Copilot, Cursor, Windsurf, Tabnine,
+    Continue, Cline, Aider, Amazon Q Developer) expose inline completion, chat, and
+    agentic edit APIs that integrate LLMs into the developer loop.
+- name: Plugin and Extension Marketplaces
+  description: Marketplaces like the VS Code Marketplace and JetBrains Marketplace
+    host millions of extensions and expose APIs for publishing, searching, and managing
+    plugin metadata, downloads, and reviews.
+- name: Notebook and Kernel APIs
+  description: Jupyter and JupyterLab expose REST APIs and a WebSocket-based messaging
+    protocol for managing kernels, sessions, contents, and terminals, powering notebook
+    computing in Colab, JupyterHub, and many cloud platforms.
+- name: Cloud Workspaces and Remote Development
+  description: Cloud-based IDEs like Replit and remote-development backends provide
+    APIs for provisioning ephemeral workspaces, managing containers, and streaming
+    editor sessions to browsers.
+- name: Debugger and Test Adapter Protocols
+  description: Standards like the Debug Adapter Protocol (DAP) and Test Adapter Protocol
+    let editors integrate with debuggers and test runners across many languages through
+    a single, portable interface.
+use_cases:
+- name: Building AI Coding Assistants
+  description: Developers integrate LLM-backed completion and agentic editing into
+    IDEs through extension APIs and editor-side hooks, powering products like Copilot,
+    Cursor, Windsurf, Continue, and Cline.
+- name: Custom Internal Developer Tooling
+  description: Engineering platform teams build internal extensions for VS Code, JetBrains,
+    and Eclipse to embed company-specific scaffolding, deployment, and code-review
+    tooling directly into the editor.
+- name: Notebook-Driven Data Science Workflows
+  description: Data teams use Jupyter, JupyterLab, JupyterHub, and Google Colab APIs
+    to automate notebook execution, manage shared kernels, provision multi-user environments,
+    and integrate with data pipelines.
+- name: Cloud-Native Onboarding and Ephemeral Environments
+  description: Platforms like Replit and remote workspace backends use APIs to spin
+    up pre-configured cloud IDEs for tutorials, interviews, and short-lived development
+    environments without local toolchains.
+- name: Plugin Distribution and Marketplace Automation
+  description: ISVs publish, version, and analyze extensions via the JetBrains Marketplace
+    and Visual Studio Marketplace APIs, integrating release pipelines and revenue
+    reporting into CI/CD.
+- name: Game and Real-Time Editor Tooling
+  description: Engines like Unity expose editor APIs and packages that integrate live
+    services (multiplayer, analytics, build, asset management) directly into the editor
+    used by game developers.
+- name: Standardized Language Tooling Across Editors
+  description: Tooling authors implement Language Server Protocol once and expose
+    features (completion, navigation, diagnostics) across every LSP-capable editor,
+    reducing per-IDE integration cost.
+integrations:
+- name: Visual Studio Code
+  description: The dominant open-source code editor with the VS Code Extension API,
+    Language Server Protocol implementation, Debug Adapter Protocol, and a marketplace
+    of 60,000+ extensions.
+- name: JetBrains IDEs
+  description: A family of professional IDEs (IntelliJ IDEA, PyCharm, GoLand, WebStorm,
+    PhpStorm, RubyMine, Rider) built on the JetBrains Platform SDK with a unified
+    plugin model and marketplace.
+- name: Cursor
+  description: AI-first code editor forked from VS Code with deep agentic editing,
+    codebase-aware chat, and tab-driven inline completion.
+- name: Windsurf
+  description: AI-native editor (formerly Codeium) featuring Cascade autonomous agent,
+    multi-step planning, and enterprise APIs for completion analytics and team management.
+- name: GitHub Copilot
+  description: AI pair programmer integrated into VS Code, Visual Studio, JetBrains,
+    Neovim, and the GitHub web UI, with Copilot Chat and agent APIs.
+- name: Jupyter / JupyterLab
+  description: Interactive computing platform exposing REST APIs and a WebSocket messaging
+    protocol for kernels, sessions, contents, and terminals across notebook, JupyterLab,
+    and JupyterHub deployments.
+- name: Replit
+  description: Cloud development platform offering instant containerized workspaces,
+    multiplayer editing, an integrated terminal, and APIs for managing Repls and deployments.
+- name: Eclipse Foundation
+  description: Open-source community behind the Eclipse IDE, Eclipse Theia, Eclipse
+    Che, and a wide ecosystem of editor and language tooling projects.
