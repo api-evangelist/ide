@@ -8,7 +8,7 @@ description: >-
   marketplaces, telemetry, completion and chat APIs, and remote workspace orchestration. This collection is distinct from API client tooling (HTTP request testing) and focuses on the surface where
   developers write, edit, debug, and run code.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - IDE
 - Code Editor
