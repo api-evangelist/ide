@@ -3,8 +3,6 @@ An index and topic collection covering integrated development environments (IDEs
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - IDE, Code Editor, Cloud IDE, Developer Tools, Workspaces
