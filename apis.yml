@@ -14,6 +14,12 @@ tags:
 - Code Editor
 - Cloud IDE
 - Developer Tools
+- Workspace
+tags_raw:
+- IDE
+- Code Editor
+- Cloud IDE
+- Developer Tools
 - Workspaces
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/apis.yml
