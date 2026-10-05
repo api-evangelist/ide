@@ -1,5 +1,6 @@
 aid: ide
 name: IDE
+kind: topic
 description: >-
   An index and topic collection covering integrated development environments (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and developer workspaces that
   expose programmable surfaces, including local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse), modern AI-first editors (Cursor, Windsurf), agentic coding assistants (Aider, Cline, Continue,
