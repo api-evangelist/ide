@@ -1,120 +1,97 @@
-# IDE (ide)
-An index and topic collection covering integrated development environments (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and developer workspaces that expose programmable surfaces, including local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse), modern AI-first editors (Cursor, Windsurf), agentic coding assistants (Aider, Cline, Continue, GitHub Copilot, Amazon Q Developer, Tabnine), notebook environments (Jupyter, JupyterLab, JupyterHub, Google Colab), cloud development platforms (Replit), plugin marketplaces (JetBrains Marketplace), and editor extension APIs (Visual Studio Code). This collection is distinct from API client tooling (HTTP request testing) and focuses on the surface where developers write, edit, debug, and run code.
+# IDE
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
 
-## Tags:
+An index and topic collection covering integrated development environments (IDEs), code editors, and cloud workspaces with APIs. This topic captures the editors, IDEs, and developer workspaces that expose programmable surfaces, including local desktop IDEs (Visual Studio, JetBrains IDEs, Eclipse), modern AI-first editors (Cursor, Windsurf), agentic coding assistants (Aider, Cline, Continue, GitHub Copilot, Amazon Q Developer, Tabnine), notebook environments (Jupyter, JupyterLab, JupyterHub, Google Colab), cloud development platforms (Replit), plugin marketplaces (JetBrains Marketplace), and editor extension APIs (Visual Studio Code). IDEs and editor-as-API platforms expose extension APIs, Language Server Protocol (LSP) endpoints, workspace and project APIs, debugging APIs, plugin marketplaces, telemetry, completion and chat APIs, and remote workspace orchestration. This collection is distinct from API client tooling (HTTP request testing) and focuses on the surface where developers write, edit, debug, and run code.
 
- - IDE, Code Editor, Cloud IDE, Developer Tools, Workspaces
+**Areas:** IDE · Code Editor · Cloud IDE · Developer Tools · Workspace
 
-## Timestamps
+## IDE on APIs.io
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Everything profiled for IDE is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ide/](https://apis.io/providers/ide/)** — or go straight to one of the APIs or properties below.
 
-## Common Properties
+## Where to find this API
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Workspace Schema](https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/json-schema/ide-workspace-schema.json)
-- [JSONSchema - Extension Schema](https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/json-schema/ide-extension-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/json-ld/ide-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/ide/refs/heads/main/vocabulary/ide-vocabulary.yaml)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Features
+- [GitHub](https://github.com/api-evangelist)
 
-| Name | Description |
-|------|-------------|
-| Extension and Plugin APIs | IDEs expose extension APIs that let third-party developers add commands, views, language support, debuggers, and integrations. Examples include the VS Code Extension API, JetBrains Platform SDK, and Eclipse Platform APIs. |
-| Language Server Protocol (LSP) | LSP is a JSON-RPC protocol that standardizes how editors communicate with language tooling (completion, hover, diagnostics, references) across VS Code, Neovim, JetBrains, and Eclipse Theia. |
-| Workspace and Project APIs | Editors expose workspace, project, and file-system APIs that extensions and remote clients use to read, write, and watch source files, including multi-root workspaces and remote workspace orchestration. |
-| AI Completion and Chat APIs | Modern editors and assistants (Copilot, Cursor, Windsurf, Tabnine, Continue, Cline, Aider, Amazon Q Developer) expose inline completion, chat, and agentic edit APIs that integrate LLMs into the developer loop. |
-| Plugin and Extension Marketplaces | Marketplaces like the VS Code Marketplace and JetBrains Marketplace host millions of extensions and expose APIs for publishing, searching, and managing plugin metadata, downloads, and reviews. |
-| Notebook and Kernel APIs | Jupyter and JupyterLab expose REST APIs and a WebSocket-based messaging protocol for managing kernels, sessions, contents, and terminals, powering notebook computing in Colab and JupyterHub. |
-| Cloud Workspaces and Remote Development | Cloud-based IDEs like Replit and remote-development backends provide APIs for provisioning ephemeral workspaces, managing containers, and streaming editor sessions to browsers. |
-| Debugger and Test Adapter Protocols | Standards like the Debug Adapter Protocol (DAP) and Test Adapter Protocol let editors integrate with debuggers and test runners across many languages through a single, portable interface. |
+## API Evangelist rating
 
-## Use Cases
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Building AI Coding Assistants | Developers integrate LLM-backed completion and agentic editing into IDEs through extension APIs and editor-side hooks. |
-| Custom Internal Developer Tooling | Engineering platform teams build internal extensions for VS Code, JetBrains, and Eclipse to embed company-specific scaffolding, deployment, and code-review tooling. |
-| Notebook-Driven Data Science Workflows | Data teams use Jupyter, JupyterLab, JupyterHub, and Google Colab APIs to automate notebook execution and manage shared kernels. |
-| Cloud-Native Onboarding and Ephemeral Environments | Platforms like Replit use APIs to spin up pre-configured cloud IDEs for tutorials, interviews, and short-lived environments. |
-| Plugin Distribution and Marketplace Automation | ISVs publish, version, and analyze extensions via the JetBrains Marketplace and Visual Studio Marketplace APIs. |
-| Game and Real-Time Editor Tooling | Engines like Unity expose editor APIs and packages that integrate live services directly into the editor. |
-| Standardized Language Tooling Across Editors | Tooling authors implement Language Server Protocol once and expose features across every LSP-capable editor. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Integrations
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Visual Studio Code | The dominant open-source code editor with the VS Code Extension API, LSP and DAP implementations, and a marketplace of 60,000+ extensions. |
-| JetBrains IDEs | A family of professional IDEs (IntelliJ IDEA, PyCharm, GoLand, WebStorm, PhpStorm, RubyMine, Rider) built on the JetBrains Platform SDK. |
-| Cursor | AI-first code editor forked from VS Code with deep agentic editing and codebase-aware chat. |
-| Windsurf | AI-native editor (formerly Codeium) featuring the Cascade autonomous agent and enterprise APIs for analytics and team management. |
-| GitHub Copilot | AI pair programmer integrated into VS Code, Visual Studio, JetBrains, Neovim, and the GitHub web UI, with Copilot Chat and agent APIs. |
-| Jupyter / JupyterLab | Interactive computing platform exposing REST APIs and a WebSocket messaging protocol for kernels, sessions, contents, and terminals. |
-| Replit | Cloud development platform offering instant containerized workspaces, multiplayer editing, and APIs for managing Repls and deployments. |
-| Eclipse Foundation | Open-source community behind the Eclipse IDE, Eclipse Theia, Eclipse Che, and a wide ecosystem of editor and language tooling projects. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Artifacts
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IDE: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-Machine-readable API specifications organized by format.
+## Open an issue
 
-### JSON Schema
-
-- [Workspace Schema](json-schema/ide-workspace-schema.json)
-- [Extension Schema](json-schema/ide-extension-schema.json)
-
-### JSON Structure
-
-- [Workspace Structure](json-structure/ide-workspace-structure.json)
-- [Extension Structure](json-structure/ide-extension-structure.json)
-
-### JSON-LD
-
-- [IDE Context](json-ld/ide-context.jsonld)
-
-## Vocabulary
-
-- [IDE Vocabulary](vocabulary/ide-vocabulary.yaml) — Unified taxonomy covering resources, actions, workflows, and personas across IDEs, code editors, plugin marketplaces, notebook environments, and cloud workspaces
-
-## Network
-
-This index references the following IDE, code editor, and cloud workspace repositories:
-
-- [Aider](https://github.com/api-evangelist/aider)
-- [Amazon Q](https://github.com/api-evangelist/amazon-q)
-- [Cline](https://github.com/api-evangelist/cline)
-- [Continue](https://github.com/api-evangelist/continue-dev)
-- [Cursor](https://github.com/api-evangelist/cursor)
-- [Cursor Rules](https://github.com/api-evangelist/cursorrules)
-- [Eclipse Foundation](https://github.com/api-evangelist/eclipse)
-- [GitHub Copilot](https://github.com/api-evangelist/github-copilot)
-- [Google Colab](https://github.com/api-evangelist/google-colab)
-- [Google Flutter](https://github.com/api-evangelist/google-flutter)
-- [Integrated Development Environment](https://github.com/api-evangelist/integrated-development-environment)
-- [JetBrains](https://github.com/api-evangelist/jetbrains)
-- [JetBrains Marketplace](https://github.com/api-evangelist/jetbrains-plugin)
-- [Jupyter](https://github.com/api-evangelist/jupyter)
-- [JupyterHub](https://github.com/api-evangelist/jupyterhub)
-- [Jupyter Hub](https://github.com/api-evangelist/jupyter-hub)
-- [Jupyter Notebook](https://github.com/api-evangelist/jupyter-notebook)
-- [Jupyter Server](https://github.com/api-evangelist/jupyter-server)
-- [JupyterLab](https://github.com/api-evangelist/jupyterlab)
-- [Microsoft Visual Studio](https://github.com/api-evangelist/microsoft-visual-studio)
-- [Replit](https://github.com/api-evangelist/replit)
-- [Tabnine](https://github.com/api-evangelist/tabnine)
-- [Unity](https://github.com/api-evangelist/unity)
-- [Visual Studio](https://github.com/api-evangelist/visual-studio)
-- [Visual Studio Code](https://github.com/api-evangelist/visual-studio-code)
-- [Windsurf](https://github.com/api-evangelist/windsurf)
-- [Windsurf Rules](https://github.com/api-evangelist/windsurfrules)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ide/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
