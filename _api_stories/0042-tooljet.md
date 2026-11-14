@@ -1,7 +1,7 @@
 ---
-title: Build A Visual Quality Gate With ToolJet MCP for inspectors
-link: https://blog.tooljet.com/visual-quality-gate-app/
-published: '2026-10-28'
+title: Build a Data Review Console With ToolJet MCP
+link: https://blog.tooljet.com/data-review-correction-console-app/
+published: '2026-11-03'
 provider: tooljet
 repo: https://github.com/api-evangelist/tooljet
 domain: blog.tooljet.com
